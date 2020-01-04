@@ -1,3 +1,8 @@
+# IDE excludes
+.idea
+src/venv
+config/webhooks.yml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,8 @@
+---
+
+- host:
+  port: 8086
+  user:
+  password:
+  db:
+  measurement:
