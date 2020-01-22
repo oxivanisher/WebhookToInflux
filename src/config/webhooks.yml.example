@@ -6,3 +6,5 @@
   password:
   db:
   measurement:
+  tags:
+    source: excel
