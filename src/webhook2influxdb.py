@@ -168,8 +168,7 @@ class StaticServer(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     server_class = HTTPServer
     handler_class = StaticServer
-    port = 8000
-    server_address = ('', port)
+    server_address = ('0.0.0.0', 8000)
     httpd = server_class(server_address, handler_class)
-    logging.debug("Running in server mode on port %s" % port)
+    logging.debug("Running in server mode on port 8000")
     httpd.serve_forever()
